@@ -14,7 +14,7 @@ remove.addEventListener("click",() => {
     document.body.style.backgroundColor="red"
     share.disabled = false;
 })
-function CaptureAndShare() {
+function Capture() {
     html2canvas(document.body).then(function (canvas) {
         var screenshot = canvas.toDataURL('image/png');
          var link = document.createElement('a');
