@@ -13,6 +13,8 @@ decBtn.addEventListener('click', function b() {
     share.disabled = false;
 });
 
+
+
 function screenshot() {
     html2canvas(document.body).then(function(canvas) {
     var b = document.createElement("a");
